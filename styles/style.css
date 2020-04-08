@@ -1,0 +1,19 @@
+/*
+Paleta de colores: https://coolors.co/ffffff-00171f-003459-007ea7-00a8e8
+Otra paleta de colores: https://coolors.co/app/ffcdb2-ffb4a2-e5989b-b5838d-6d6875
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Fjalla One", sans-serif;
+  background-color: #00171f;
+  color: #e5989b;
+}
+
+.container {
+  text-align: center;
+  padding-top: 300px;
+}
