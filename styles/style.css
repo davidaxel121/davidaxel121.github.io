@@ -9,11 +9,79 @@ Otra paleta de colores: https://coolors.co/app/ffcdb2-ffb4a2-e5989b-b5838d-6d687
   padding: 0px;
   margin: 0px;
   font-family: "Fjalla One", sans-serif;
-  background-color: #00171f;
-  color: #e5989b;
+  /* background-color: #00171f; */
+  /* color: #e5989b; */
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  /* background-color: #5cc7f0; */
+  background: rgb(0, 168, 232);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 168, 232, 1) 0%,
+    rgba(92, 199, 240, 1) 50%,
+    rgba(185, 231, 248, 1) 100%
+  );
 }
 
 .container {
   text-align: center;
   padding-top: 300px;
+}
+
+.header {
+  display: flex;
+  padding: 10px 25px;
+  font-size: 24px;
+  height: 60px;
+  justify-content: space-between;
+  background-color: #003459;
+}
+
+.header-title {
+  width: 50%;
+  height: inherit;
+  display: flex;
+  align-items: center;
+}
+
+.header-menu {
+  width: 50%;
+  height: inherit;
+}
+
+.header-menu ul li {
+  display: block;
+}
+
+.header-menu ul {
+  display: flex;
+  justify-content: space-around;
+  height: inherit;
+  align-items: center;
+}
+
+.header a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+section {
+  margin: 25px;
+  padding: 15px 30px;
+}
+
+.full {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #003459;
 }
