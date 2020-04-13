@@ -85,3 +85,25 @@ section {
   justify-content: center;
   color: #003459;
 }
+
+.social-media{
+  text-align: center;
+}
+
+@media screen and (min-width: 300px) and (max-width: 700px){
+ .header{
+   font-size: 13px;
+ }
+
+ .header-menu{
+   width: 65%;
+ }
+
+ .header-title{
+   width: 35%;
+ }
+ 
+ h1{
+   font-size: 20px;
+ }
+}
