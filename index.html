@@ -1,68 +1,106 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-    <title>David Axel Page</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Bootstrap CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Animations -->
+  <link rel="stylesheet" href="vendor/animatecss/animate.css">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+  <!-- Personalized Styles -->
+  <link rel="stylesheet" href="./css/style.css" />
+
+  <!-- Media Queries -->
+  <link rel="stylesheet" href="./css/media-queries.css" />
+
+  <title>David Axel 👨‍💻</title>
 </head>
 
 <body>
-    <header class="header" id="header">
-        <div class="header-title">
-            <a href="#header">David Axel</a>
-        </div>
-        <nav class="header-menu">
-            <ul>
-                <li><a href="#">Redes sociales</a></li>
-                <li><a href="#">Experiencia</a></li>
-                <li><a href="#">Proyectos</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <h1 class="section-title">Mis redes sociales </h1>
-    <section class="social-media">
-        <article class="social-card">
-            <div class="card-icon">
-                <i class="fab fa-codepen"></i>
-            </div>
-            <div class="card-description">
-                <h3>Codepen</h3>
-                <p>En esta pagina me gusta subir codigos que hago</p>
-                <a href="https://codepen.io/davidaxel121" target="_blank">Aqui mi pagina</a>
-            </div>
-        </article>
-        <article class="social-card">
-            <div class="card-icon">
-                <i class="fab fa-linkedin"></i>
-            </div>
-            <div class="card-description">
-                <h3>Linkedin</h3>
-                <p>Aqui mi perfil un poco mas profesional</p>
-                <a href="https://www.linkedin.com/in/davidaxel121/" target="_blank">Ve mi perfil</a>
-            </div>
-        </article>
-        <article class="social-card">
-            <div class="card-icon">
-                <i class="fab fa-github"></i>
-            </div>
-            <div class="card-description" n>
-                <h3>Github</h3>
-                <p>Aqui tengo repositorios de proyectos un poco mas grandes que realizo</p>
-                <a href="https://github.com/davidaxel121" target="_blank">Ve mis repositorios</a>
-            </div>
-        </article>
+  <!-- Navbar Section -->
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">David Axel</a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+        aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navbarTogglerDemo03">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about-me-section">Sobre mi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#social-media-section">Redes sociales</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects-section">Proyectos</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main container  -->
+
+  <main class="container">
+
+    <section class="row about-me-section" id="about-me-section">
+      <div class="col">
+        <div class="row d-flex align-items-center border1 h-100">
+          <div class="col text-center">
+            <img src="http://drive.google.com/uc?export=view&id=1XKwWavZG8y-Ku5OxlEsMkOh3NNXLyI26" class="rounded"
+              alt="David Axel Profile Image">
+            <h1>Soy David Axel</h1>
+            <h3>Desarrollador web front-end y un apasionado por la tecnología</h3>
+            <a href="#social-media-section"><i class="fas fa-angle-double-down"></i></a>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <footer class="footer">
-        <div class="footer-section"></div>
-        <div class="footer-section"></div>
-    </footer>
+    <!-- <section class="row social-media-section" id="social-media-section">
+      <div class="col">
+        <div class="row">
+          <div class="col">
 
-    <script src="./scripts/script.js"></script>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="row projects-section" id="projects-section">
+      <div class="col">
+        <div class="row">
+          <div class="col">
+
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+  </main>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="./scripts/script.js"></script>
+  <script src="./vendor/jquery/jquery.min.js"></script>
+  <script src="./vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="./vendor/jquery-easing/jquery.easing.min.js"></script>
+
 </body>
 
 </html>

@@ -1,0 +1,106 @@
+/* --------------------------------------- General styles*/
+
+:root {
+  --black: #011627;
+  --white: #fdfffc;
+  --red: #e71d36;
+  --blue: #2ec4b6;
+  --orange: #ff9f1c;
+  --navbar-elements-size: 17px;
+  --titles-size: 50px;
+  --second-titles-size: 40px;
+  --third-titles-size: 30px;
+  --paragraphs-size: 20px;
+}
+
+body {
+  background-image: url("../assets/images/background-pattern.png");
+  background-color: var(--white);
+  color: var(--black);
+  background-repeat: repeat;
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.container {
+  background-color: var(--white);
+}
+
+h1 {
+  font-size: var(--titles-size);
+}
+h2 {
+  font-size: var(--second-titles-size);
+}
+
+h3,
+h4,
+h5,
+h6 {
+  font-size: var(--third-titles-size);
+}
+
+p {
+  font-size: var(--paragraphs-size);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: var(--blue);
+}
+
+main {
+  margin-top: 56px;
+}
+
+section {
+  min-height: 90vh;
+  border: 1px solid lightcoral;
+}
+
+.border1 {
+  border: 5px solid red;
+}
+
+/* --------------------------------------------- Navbar */
+
+.navbar {
+  background-color: var(--white) !important;
+  border-bottom: 1px solid #cccccc;
+}
+
+.navbar a {
+  color: var(--black) !important;
+}
+
+.navbar a:hover {
+  color: var(--blue) !important;
+}
+
+/* -------------------------------------------- About me */
+
+.about-me-section img {
+  width: 50%;
+  margin-bottom: 25px;
+}
+
+.about-me-section > div > div > div{
+  animation: zoomIn;
+  animation-duration: 1.5s;
+}
+
+.about-me-section i {
+  margin-top: 10%;
+  font-size: 50px;
+  animation: shakeX infinite;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+}
+.about-me-section i:hover {
+  animation-duration: 2s;
+}

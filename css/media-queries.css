@@ -1,0 +1,10 @@
+/* Vista para celular */
+
+@media screen and (min-width: 576px) {
+  /* ------------------------------- About section */
+
+  .about-me-section img {
+    width: 25%;
+    margin-bottom: 25px;
+  }
+}
