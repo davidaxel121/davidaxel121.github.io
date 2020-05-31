@@ -60,12 +60,12 @@ main {
 
 section {
   min-height: 90vh;
-  border: 1px solid lightcoral;
+  /* border: 1px solid lightcoral; */
 }
 
-.border1 {
+/* .border1 {
   border: 5px solid red;
-}
+} */
 
 /* --------------------------------------------- Navbar */
 
